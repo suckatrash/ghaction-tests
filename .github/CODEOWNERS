@@ -1,0 +1,5 @@
+# CODEOWNERS for GitHub
+# <https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners>
+
+# Last match wins, values override, not augment (so more-specifics below will _replace_ the defaults here)
+*	@ConnectEverything/Devops

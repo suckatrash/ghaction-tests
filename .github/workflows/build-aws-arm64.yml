@@ -1,0 +1,17 @@
+name: Test workflow input
+on:
+  workflow_dispatch:
+    inputs:
+      mytext:
+        type: string
+        description: some text to use in the workflow
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+
+    - name: Test input
+      id: test
+      run: |
+        echo "Workflow input is: ${{ inputs.mytext }}"
